@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+}
+
+
 .navigation-wrapper {
     height: 190px;
     background-color: #11122b;
@@ -5,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 60px 100px;
 
 }
 
