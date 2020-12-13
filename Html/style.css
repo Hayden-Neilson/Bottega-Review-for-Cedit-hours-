@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -14,13 +15,37 @@ body {
 
 }
 
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
 
 
-.contact-hours-wrapper {
-    color: royalblue;
+
+.left-column >.contact-hours-wrapper {
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 10px;
+}
+
+.contact-hours-wrapper > .hours {
+    font-family: 'Ubuntu Condensed' sans-serif;
+}
+
+.nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
 }
 
 .address-wrapper {
-    color: red;
+    
 }
 
