@@ -7,3 +7,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color: #11122B;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 2px;
+}
+
+
+
+.hero-section > .bottom-heading {
+    background-color: #CEA135;
+    color: #11122B;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
