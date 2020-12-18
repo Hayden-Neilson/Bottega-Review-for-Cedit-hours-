@@ -86,3 +86,22 @@ var players = [
     console.log(players[i]);
     i++;
   } while (i < players.length)
+
+//   Googlesearch
+
+const searchBar = document.querySelector
+
+$('.gLFyf').value = "Javascript tips";
+
+$(".FPdoLc").childNodes[1].childNodes[1].click()
+
+
+// How to Pull Images from Instagram with JavaScript for a person
+
+const images = document.querySelectorAll('.FFVAD') 
+
+images.forEach(img => console.log(img.src));
+
+let imageUrlArray = [];
+
+images.forEach(img => imageUrlArray.push(img.src));
