@@ -1,13 +1,20 @@
 $off-white: #f6f6f6;
 $featured-color: DarkRed;
 
-@mixin featured {
-  color: Tomato;
+@mixin featured($bg-color: 'dark') {
+  @if $bg-color == 'light' {
+    color: Tomato;  
+  } @else if $bg-color == 'dark' {
+    color: blue;  
+  } @else {
+    color: red; 
+  }
+
   .subheading a {
-    color: LightSteelBlue;
+    color: black;
     text-decoration: none;
     &:hover {
-      color: LightSkyBlue;
+      color: black;
       text-decoration: underline;
     }
   }
@@ -29,7 +36,7 @@ body {
   $featured-color: RoyalBlue;
 
   .featured {
-    @include featured;
+    @include featured('light');
   }
 
   .page-content {
@@ -51,7 +58,7 @@ body {
         text-align: right;
         float: right;
         width: 25%;
-        @include featured;
+        @include featured('blue');
       }
     }
   }
