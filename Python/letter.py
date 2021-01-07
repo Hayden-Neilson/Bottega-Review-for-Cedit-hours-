@@ -7,3 +7,22 @@ Return a copy of the string with its first character capitalized and the rest lo
 str.lower()
 Return a copy of the string with all the cased characters [4] converted to lowercase.
 
+# sentence = 'The quick brown fox jumped'
+# sentence -> variable
+# 'The quick brown fox jumped' -> string
+# = -> assignment
+
+sentence = 'The quick brown fox jumped'
+sentence_two = sentence.upper()
+
+print(sentence)
+print(sentence_two)
+
+sentence = 'the quick brown fox jumped'.capitalize()
+print(sentence)
+
+sentence = 'the quick brown fox jumped'.title()
+print(sentence)
+
+sentence = 'the Quick Brown fOx jumped'
+print(sentence.lower())
