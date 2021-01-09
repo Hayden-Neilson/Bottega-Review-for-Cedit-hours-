@@ -1,0 +1,19 @@
+Python treats single quotes and double quotes differently : False
+
+what is important about the backslash character? : It is how you would escape string values
+
+Which is not a string case method? : .smaller
+
+What type of index numbering system does Python use? : A zero based numbering system
+
+What is a heredoc? : it is a multi line string
+
+what does the computer use repr(representation) to decide? : When to put a new line character in
+
+What does the letter f do in python3? : Its part of writing string interpolation code
+
+What does .format do? : It goes into the string and maps to each value you place in it
+
+There is no difference in Find, Index, and In : False
+
+Are strings in python immutable? : Yes
