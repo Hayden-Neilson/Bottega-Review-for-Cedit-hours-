@@ -5,7 +5,8 @@ var user = {
     grades: {
       math: 90,
       science: 80,
-      languageArts: 100
+      languageArts: 100,
+      reading: 78
     }
   }
   user.age = 13;
