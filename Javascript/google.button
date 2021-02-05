@@ -1,0 +1,1 @@
+$('.jsb').childNodes[0].childNodes[0].click
